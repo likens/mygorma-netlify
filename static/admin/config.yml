@@ -27,8 +27,22 @@ collections:
       - {label: "Cook Time", name: "cooktime", widget: "string"}
       - {label: "Serving Size", name: "servingsize", widget: "string"}
       - {label: "Image", name: "image", widget: image}
-      - {label: "Ingredients", name: "ingredients", widget: "list", allow_add: true}
-      - {label: "Directions", name: "directions", widget: "list", allow_add: true}
+      - label: Ingredients
+        label_singular: Ingredient
+        name: "ingredients"
+        widget: "list"
+        allow_add: true
+        fields:
+          - { label: Name, name: name }
+          - { label: Measurement, name: measurement }
+          - { label: Quantity, name: quantity }
+      - label: Directions
+        label_singular: Direction
+        name: "directions"
+        widget: "list"
+        allow_add: true
+        fields:
+          - { label: Direction, name: direction }
 
   - name: "blog"
     label: "Blog"
