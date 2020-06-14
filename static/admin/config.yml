@@ -48,7 +48,7 @@ collections:
               - { label: "Pound (lb)", value: "lb" }
               - { label: "Quart (qt)", value: "qt" }
               - { label: "Gallon (gal)", value: "gal" }
-          - label: "Name", name: name 
+          - { label: "Name", name: name } 
       - label: Directions
         label_singular: Direction
         name: "directions"
