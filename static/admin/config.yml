@@ -34,7 +34,7 @@ collections:
         widget: "list"
         allow_add: true
         fields:
-          - label: "Quantity", name: quantity
+          - { label: "Quantity", name: quantity }
           - label: "Measurement"
             name: measurement
             options:
