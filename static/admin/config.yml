@@ -14,28 +14,41 @@ public_folder: /img
 collections:
   - name: "recipes"
     label: "Recipes"
+    label_singular: "Recipe"
     folder: "src/pages/recipes"
     create: true
     slug: "{{name}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recipe"}
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Inspired By", name: "inspiredby", widget: "string"}
-      - {label: "Prep Time", name: "preptime", widget: "string"}
-      - {label: "Cook Time", name: "cooktime", widget: "string"}
-      - {label: "Serving Size", name: "servingsize", widget: "string"}
-      - {label: "Image", name: "image", widget: image}
+      - {label: "Name", name: "name" }
+      - {label: "Author", name: "author", required: false }
+      - {label: "Publish Date", name: "date", widget: "datetime" }
+      - {label: "Inspired By", name: "inspiredby", required: false }
+      - {label: "Prep Time", name: "preptime", required: false }
+      - {label: "Cook Time", name: "cooktime", required: false }
+      - {label: "Serving Size", name: "servingsize", required: false, widget: number, min: 1 }
+      - {label: "Image", name: "image", widget: image }
       - label: Ingredients
         label_singular: Ingredient
         name: "ingredients"
         widget: "list"
         allow_add: true
         fields:
-          - { label: Name, name: name }
-          - { label: Measurement, name: measurement }
-          - { label: Quantity, name: quantity }
+          - label: "Quantity", name: quantity
+          - label: "Measurement"
+            name: measurement
+            options:
+              - { label: "N/A", value: "null" }
+              - { label: "Dash/Pinch", value: "dash" }
+              - { label: "Teaspoon (tsp)", value: "tsp" }
+              - { label: "Tablespoon (tbsp)", value: "tbsp" }
+              - { label: "Cup (c)", value: "c" }
+              - { label: "Pint (pt)", value: "pt" }
+              - { label: "Ounce (oz)", value: "oz" }
+              - { label: "Pound (lb)", value: "lb" }
+              - { label: "Quart (qt)", value: "qt" }
+              - { label: "Gallon (gal)", value: "gal" }
+          - label: "Name", name: name 
       - label: Directions
         label_singular: Direction
         name: "directions"
@@ -43,56 +56,3 @@ collections:
         allow_add: true
         fields:
           - { label: Direction, name: direction }
-
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
-
-  - name: "pages"
-    label: "Pages"
-    files:
-      - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
