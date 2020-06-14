@@ -16,7 +16,7 @@ collections:
     label: "Recipes"
     folder: "src/pages/recipe"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recipe"}
       - {label: "Name", name: "name", widget: "string"}
