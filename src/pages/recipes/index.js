@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import RecipeRoll from '../components/RecipeRoll'
+import RecipeRoll from '../../components/RecipeRoll'
 
 export default class RecipeIndexPage extends React.Component {
   render() {
