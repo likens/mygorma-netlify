@@ -13,22 +13,22 @@ public_folder: /img
 
 collections:
   - name: "recipes"
-      label: "Recipes"
-      folder: "src/pages/recipe"
-      create: true
-      slug: "{{slug}}"
-      fields:
-        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recipe"}
-        - {label: "Name", name: "name", widget: "string"}
-        - {label: "Author", name: "author", widget: "string"}
-        - {label: "Publish Date", name: "date", widget: "datetime"}
-        - {label: "Inspired By", name: "inspiredby", widget: "string"}
-        - {label: "Prep Time", name: "preptime", widget: "string"}
-        - {label: "Cook Time", name: "cooktime", widget: "string"}
-        - {label: "Serving Size", name: "servingsize", widget: "string"}
-        - {label: "Image", name: "image", widget: image}
-        - {label: "Ingredients", name: "ingredients", widget: "list", allow_add: true}
-        - {label: "Directions", name: "directions", widget: "list", allow_add: true}
+    label: "Recipes"
+    folder: "src/pages/recipe"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recipe"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Inspired By", name: "inspiredby", widget: "string"}
+      - {label: "Prep Time", name: "preptime", widget: "string"}
+      - {label: "Cook Time", name: "cooktime", widget: "string"}
+      - {label: "Serving Size", name: "servingsize", widget: "string"}
+      - {label: "Image", name: "image", widget: image}
+      - {label: "Ingredients", name: "ingredients", widget: "list", allow_add: true}
+      - {label: "Directions", name: "directions", widget: "list", allow_add: true}
 
   - name: "blog"
     label: "Blog"
