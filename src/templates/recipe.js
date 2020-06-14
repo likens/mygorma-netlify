@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
@@ -7,14 +6,9 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
 export const RecipeTemplate = ({
-  content,
-  contentComponent,
-  description,
-  tags,
-  title,
+  name,
   helmet,
 }) => {
-  const PostContent = contentComponent || Content
 
   return (
     <section className="section">
@@ -23,22 +17,8 @@ export const RecipeTemplate = ({
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
+              {name}
             </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map((tag) => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
           </div>
         </div>
       </div>
@@ -47,10 +27,7 @@ export const RecipeTemplate = ({
 }
 
 RecipeTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
+  name: PropTypes.string,
   helmet: PropTypes.object,
 }
 
@@ -60,20 +37,25 @@ const Recipe = ({ data }) => {
   return (
     <Layout>
       <RecipeTemplate
-        content={post.html}
-        contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Recipe">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
+          <Helmet titleTemplate="%s | MyGorma">
+            <title>{`${post.frontmatter.name}`}</title>
+            {/* <meta
               name="description"
               content={`${post.frontmatter.description}`}
-            />
+            /> */}
           </Helmet>
         }
-        tags={post.frontmatter.tags}
-        title={post.frontmatter.title}
+        name={post.frontmatter.name}
+        // author={post.frontmatter.author}
+        // date={post.frontmatter.date}
+        // inspiredby={post.frontmatter.inspiredby}
+        // preptime={post.frontmatter.preptime}
+        // cooktime={post.frontmatter.cooktime}
+        // servingsize={post.frontmatter.servingsize}
+        // image={post.frontmatter.image}
+        // ingredients={post.frontmatter.ingredients}
+        // directions={post.frontmatter.directions}
       />
     </Layout>
   )
@@ -94,10 +76,16 @@ export const pageQuery = graphql`
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        title
-        description
-        tags
+        name
+        
       }
     }
   }
 `
+// author
+//         inspiredby
+//         preptime
+//         cooktime
+//         servingsize
+//         ingredients
+//         directions
