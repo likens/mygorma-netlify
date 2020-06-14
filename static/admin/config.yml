@@ -14,7 +14,7 @@ public_folder: /img
 collections:
   - name: "recipes"
     label: "Recipes"
-    folder: "src/pages/recipe"
+    folder: "src/pages/recipes"
     create: true
     slug: "{{name}}"
     fields:
