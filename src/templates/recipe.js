@@ -1,10 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
 
 export const RecipeTemplate = ({
   name,
@@ -55,16 +53,20 @@ export const RecipeTemplate = ({
           <div className="recipe__ingredients">
             <div className="recipe__heading">Ingredients</div>
             <div className="recipe__content">
-              <ul className="recipe__ingredients-list">
-                <li className="recipe__ingredients-item">TODO: Ingredients</li>
+              <ul className="recipe__list recipe__ingredients-list">
+                {ingredients.map((ing, idx) => ( 
+                  <li className="recipe__list-item recipe__ingredients-item" key={idx}>{ing.quantity} {ing.measurement} {ing.name}</li>
+                ))}
               </ul>
             </div>
           </div>
           <div className="recipe__directions">
             <div className="recipe__heading">Directions</div>
             <div className="recipe__content">
-              <ol className="recipe__directions-list">
-                <li className="recipe__directions-item">TODO: Directions</li>
+              <ol className="recipe__list recipe__directions-list">
+                {directions.map((direction, idx) => ( 
+                  <li className="recipe__list-item recipe__directions-item" key={idx}>{direction.direction}</li>
+                ))}
               </ol>
             </div>
           </div>
@@ -84,6 +86,7 @@ export const RecipeTemplate = ({
 
 RecipeTemplate.propTypes = {
   name: PropTypes.string,
+  ingredients: PropTypes.array,
   helmet: PropTypes.object,
 }
 
@@ -138,6 +141,14 @@ export const pageQuery = graphql`
         preptime
         cooktime
         servingsize
+        ingredients {
+          quantity
+          measurement
+          name
+        }
+        directions {
+          direction
+        }
         image {
           childImageSharp {
             fluid(maxWidth: 1200, quality: 100) {

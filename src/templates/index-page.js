@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import RecipeRoll from '../components/RecipeRoll'
@@ -14,7 +14,7 @@ export const IndexPageTemplate = ({
 )
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  // const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>

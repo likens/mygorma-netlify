@@ -30,12 +30,12 @@ collections:
       - {label: "Image", name: "image", widget: image }
       - label: Ingredients
         label_singular: Ingredient
-        name: "ingredients"
-        widget: "list"
+        name: ingredients
+        widget: list
         allow_add: true
         fields:
-          - { label: "Quantity", name: quantity }
-          - label: "Measurement"
+          - { label: Quantity, name: quantity }
+          - label: Measurement
             name: measurement
             options:
               - { label: "N/A", value: "null" }
@@ -48,10 +48,10 @@ collections:
               - { label: "Pound (lb)", value: "lb" }
               - { label: "Quart (qt)", value: "qt" }
               - { label: "Gallon (gal)", value: "gal" }
-          - { label: "Name", name: name } 
+          - { label: Name, name: name } 
       - label: Directions
         label_singular: Direction
-        name: "directions"
-        widget: "list"
+        name: directions
+        widget: list
         allow_add: true
         field: { label: Direction, name: direction }

@@ -4,7 +4,6 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './styles.scss'
 import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
 import logoBlack from '../img/logo-black.png'
 import iconBlack from '../img/icon-black.png'
 
@@ -18,7 +17,6 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-        <link rel="manifest" href={`${withPrefix('/')}manifest.json`} />
         <link rel="icon" sizes="192x192" href={iconBlack} />
         <link rel="apple-touch-icon" sizes="192x192" href={iconBlack} />
         {/* <link rel="mask-icon" href={`${withPrefix('/')}img/safari-pinned-tab.svg`} color="#000000" /> */}

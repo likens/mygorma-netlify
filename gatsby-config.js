@@ -28,6 +28,35 @@ module.exports = {
         name: 'images',
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "MyGorma | Gourmet Recipes",
+        short_name: "MyGorma",
+        start_url: "/",
+        lang: "en",
+        background_color: "#ffffff",
+        theme_color: "#000000",
+        display: "fullscreen",
+        icon: "public/img/icon-black.png",
+        icons: [
+          {
+            src: `/img/logo-black-192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/img/logo-black-512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
+        // An optional attribute which provides support for CORS check.
+        // If you do not provide a crossOrigin option, it will skip CORS for manifest.
+        // Any invalid keyword or empty string defaults to `anonymous`
+        crossOrigin: `use-credentials`,
+      },
+    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
