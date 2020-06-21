@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/logo.png'
+import logoBlack from '../img/logo-black.png'
 
 const Header = class extends React.Component {
   constructor(props) {
@@ -16,7 +16,7 @@ const Header = class extends React.Component {
       <header className="header">
         <div className="logo">
           <Link to="/" className="logo__link">
-            <img src={logo} alt="" className="logo__img" />
+            <img src={logoBlack} alt="" className="logo__img" />
           </Link>
         </div>
       </header>

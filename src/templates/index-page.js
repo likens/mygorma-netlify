@@ -3,12 +3,13 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
+import RecipeRoll from '../components/RecipeRoll'
 
 export const IndexPageTemplate = ({
 }) => (
     <section className="recipes">
-      recipes go here
+        <div className="recipes__heading">Recipes</div>
+        <RecipeRoll />
     </section>
 )
 

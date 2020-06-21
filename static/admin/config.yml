@@ -54,5 +54,4 @@ collections:
         name: "directions"
         widget: "list"
         allow_add: true
-        fields:
-          - { label: Direction, name: direction }
+        field: { label: Direction, name: direction }
