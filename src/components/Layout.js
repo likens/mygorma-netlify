@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import './styles.scss'
 import useSiteMetadata from './SiteMetadata'
 import logoBlack from '../img/logo-black.png'
+import iconBlack from '../img/icon-black.png'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -16,6 +17,8 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <link rel="icon" sizes="192x192" href={iconBlack} />
+        <link rel="apple-touch-icon" sizes="192x192" href={iconBlack} />
         {/* <link rel="mask-icon" href={`${withPrefix('/')}img/safari-pinned-tab.svg`} color="#000000" /> */}
         <meta name="theme-color" content="#000" />
         <meta property="og:title" content={title} />
