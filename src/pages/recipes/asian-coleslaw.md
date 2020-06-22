@@ -44,11 +44,11 @@ ingredients:
     name: soy sauce
 directions:
   - direction: In a large bowl, place coleslaw mix, sunflower seeds, sliced almonds,
-    crushed ramen, sesame seeds, and scallions
+      crushed ramen, sesame seeds, and scallions
   - direction: In a large measuring cup or bowl, add the liquids, sugar, and one seasoning
-    packet from the ramen and whisk together well
+      packet from the ramen and whisk together well
   - direction: Pour oil mixture over the coleslaw mix and toss everything together with a
-    large spatula until everything is coated well
+      large spatula until everything is coated well
   - direction: Cover bowl with plastic wrap and chill in refrigerator for at least 2 hours
-    or serve immediately
+      or serve immediately
 ---
