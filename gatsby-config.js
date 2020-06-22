@@ -38,7 +38,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#000000",
         display: "fullscreen",
-        icon: "public/img/icon-black.png",
+        icon: "/img/icon-black.png",
         icons: [
           {
             src: `/img/logo-black-192.png`,
