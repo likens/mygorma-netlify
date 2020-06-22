@@ -26,7 +26,7 @@ collections:
       - {label: "Inspired By", name: "inspiredby", required: false }
       - {label: "Prep Time", name: "preptime", required: false }
       - {label: "Cook Time", name: "cooktime", required: false }
-      - {label: "Serving Size", name: "servingsize", required: false, widget: number, min: 1 }
+      - {label: "Serving Size", name: "servingsize", required: false }
       - {label: "Image", name: "image", widget: image, required: false }
       - label: Ingredients
         label_singular: Ingredient
@@ -54,4 +54,4 @@ collections:
         name: directions
         widget: list
         allow_add: true
-        field: { label: Direction, name: direction }
+        fields: { label: Direction, name: direction }

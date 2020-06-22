@@ -4,7 +4,7 @@ name: Asian Coleslaw
 author: Caleb Likens
 date: 2020-06-23T02:09:16.969Z
 inspiredby: Table for Two Blog
-servingsize: 4
+servingsize: "4"
 ingredients:
   - quantity: "16"
     measurement: oz
@@ -16,7 +16,7 @@ ingredients:
     measurement: cup
     name: sliced almonds
   - quantity: "2"
-    name: Maruchan ramen packages, oriental flavor (blue)
+    name: Maruchan ramen packages, oriental flavor (blue coloring)
     measurement: n/a
   - quantity: "6"
     name: stalks of scallions, sliced (whites optional)
@@ -43,12 +43,12 @@ ingredients:
     measurement: cup
     name: soy sauce
 directions:
-  - In a large bowl, place coleslaw mix, sunflower seeds, sliced almonds,
+  - direction: In a large bowl, place coleslaw mix, sunflower seeds, sliced almonds,
     crushed ramen, sesame seeds, and scallions
-  - In a large measuring cup or bowl, add the liquids, sugar, and one seasoning
+  - direction: In a large measuring cup or bowl, add the liquids, sugar, and one seasoning
     packet from the ramen and whisk together well
-  - Pour oil mixture over the coleslaw mix and toss everything together with a
+  - direction: Pour oil mixture over the coleslaw mix and toss everything together with a
     large spatula until everything is coated well
-  - Cover bowl with plastic wrap and chill in refrigerator for at least 2 hours
+  - direction: Cover bowl with plastic wrap and chill in refrigerator for at least 2 hours
     or serve immediately
 ---
