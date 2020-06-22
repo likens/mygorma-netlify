@@ -55,7 +55,13 @@ export const RecipeTemplate = ({
             <div className="recipe__content">
               <ul className="recipe__list recipe__ingredients-list">
                 {ingredients.map((ing, idx) => ( 
-                  <li className="recipe__list-item recipe__ingredients-item" key={idx}>{ing.quantity} {ing.measurement} {ing.name}</li>
+                  <li className="recipe__list-item recipe__ingredients-item" key={idx}>
+                    {ing.quantity ? `${ing.quantity} ` : ``}
+                    {ing.measurement != "null" && 
+                      ing.measurement != "n/a" && 
+                      ing.measurement ? `${ing.measurement} ` : ``}
+                    {ing.name ? ing.name : ``}
+                  </li>
                 ))}
               </ul>
             </div>

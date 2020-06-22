@@ -38,19 +38,7 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#000000",
         display: "fullscreen",
-        icon: "/img/icon-black.png",
-        icons: [
-          {
-            src: `/img/logo-black-192.png`,
-            sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/img/logo-black-512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
-        ],
+        icon: "src/img/logo-black.png",
         // An optional attribute which provides support for CORS check.
         // If you do not provide a crossOrigin option, it will skip CORS for manifest.
         // Any invalid keyword or empty string defaults to `anonymous`
