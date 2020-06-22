@@ -13,7 +13,6 @@ export const RecipeTemplate = ({
   preptime,
   cooktime,
   servingsize,
-  image,
   ingredients,
   directions
 }) => {
@@ -118,7 +117,6 @@ const Recipe = ({ data }) => {
         preptime={recipe.frontmatter.preptime}
         cooktime={recipe.frontmatter.cooktime}
         servingsize={recipe.frontmatter.servingsize}
-        image={recipe.frontmatter.image}
         ingredients={recipe.frontmatter.ingredients}
         directions={recipe.frontmatter.directions}
       />
@@ -154,13 +152,6 @@ export const pageQuery = graphql`
         }
         directions {
           direction
-        }
-        image {
-          childImageSharp {
-            fluid(maxWidth: 1200, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
         }
       }
     }
