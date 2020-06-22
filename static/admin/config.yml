@@ -27,7 +27,7 @@ collections:
       - {label: "Prep Time", name: "preptime", required: false }
       - {label: "Cook Time", name: "cooktime", required: false }
       - {label: "Serving Size", name: "servingsize", required: false, widget: number, min: 1 }
-      - {label: "Image", name: "image", widget: image }
+      - {label: "Image", name: "image", widget: image, required: false }
       - label: Ingredients
         label_singular: Ingredient
         name: ingredients

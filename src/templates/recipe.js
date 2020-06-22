@@ -53,7 +53,7 @@ export const RecipeTemplate = ({
             <div className="recipe__heading">Ingredients</div>
             <div className="recipe__content">
               <ul className="recipe__list recipe__ingredients-list">
-                {ingredients.map((ing, idx) => ( 
+                {ingredients && ingredients.map((ing, idx) => ( 
                   <li className="recipe__list-item recipe__ingredients-item" key={idx}>
                     {ing.quantity ? `${ing.quantity} ` : ``}
                     {ing.measurement !== "null" && 
@@ -69,7 +69,7 @@ export const RecipeTemplate = ({
             <div className="recipe__heading">Directions</div>
             <div className="recipe__content">
               <ol className="recipe__list recipe__directions-list">
-                {directions.map((direction, idx) => ( 
+                {directions && directions.map((direction, idx) => ( 
                   <li className="recipe__list-item recipe__directions-item" key={idx}>{direction.direction}</li>
                 ))}
               </ol>
