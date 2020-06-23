@@ -7,19 +7,19 @@ inspiredby: Weber's Way to Grill
 preptime: 15 minutes
 cooktime: 8 to 12 minutes
 servingsize: "6"
-image: /img/my-gorma18.jpg
+image: ""
 ingredients:
   - name: Extra virgin olive oil
-    measurement: cup
+    measurement: c
     quantity: 1/4
   - name: Finely Grated Zest and Juice of Lemon
     quantity: "2"
-    measurement: n/a
+    measurement: "null"
   - name: Dried Oregano
-    measurement: Tbsp
+    measurement: tbsp
     quantity: "1"
   - name: Minced Garlic
-    measurement: Tbsp
+    measurement: tbsp
     quantity: "1"
   - name: paprika
     measurement: tsp
@@ -32,7 +32,7 @@ ingredients:
     quantity: 1/2
   - name: Skinless Chicken Breasts
     quantity: "6"
-    measurement: n/a
+    measurement: "null"
 directions:
   - direction: In a medium bowl whisk the marinade ingredients.
   - direction: Place the breasts on a large, rimmed plate. Spoon or brush the
