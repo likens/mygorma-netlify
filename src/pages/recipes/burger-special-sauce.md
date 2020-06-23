@@ -1,36 +1,36 @@
 ---
 templateKey: recipe
-name: Burger Special Sauce
+name: Vanilla Bourbon French Toast
 author: Bill Gorman
 date: 2020-06-23T17:01:20.135Z
 preptime: 5 minutes
-servingsize: "20"
+cooktime: 10 minutes
+servingsize: "4"
 ingredients:
   - quantity: "1"
-    measurement: c
-    name: Mayonnaise
+    measurement: "null"
+    name: Egg, beaten
+  - quantity: "1"
+    measurement: tsp
+    name: Vanilla Bourbon flavored Vanilla Extract
   - quantity: 1/2
-    measurement: c
-    name: Ketchup
+    measurement: tsp
+    name: Ground Cinnamon
   - quantity: 1/4
     measurement: c
-    name: Yellow Mustard
-  - quantity: 1/2
-    measurement: tsp
-    name: garlic powder
+    name: Whole Milk
+  - quantity: "4"
+    measurement: "null"
+    name: Brioche Bread slices
+  - quantity: 1/4
+    measurement: c
+    name: Powdered Sugar
   - quantity: "1"
-    measurement: dash
-    name: Hot Sauce
-  - quantity: "1"
-    measurement: dash
-    name: Pepper to taste
-  - quantity: 1/2
-    measurement: tsp
-    name: Paprika
-  - quantity: "1"
-    measurement: tbsp
-    name: Finely Chopped Dill Pickle
+    measurement: c
+    name: Maple Syrup
 directions:
-  - direction: Mix all ingredients in a bowl. Hot Sauce, Pepper and Chopped Dill
-      Pickles to taste.
+  - direction: Beat egg, Vanilla Extract, Cinnamon, and stir in milk until combined
+  - direction: Dip bread to coat both sides
+  - direction: Cook bread on Nonstick griddle on medium until browned on both sides
+  - direction: Serve with powdered sugar and syrup
 ---
