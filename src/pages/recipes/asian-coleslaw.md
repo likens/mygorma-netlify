@@ -10,28 +10,28 @@ ingredients:
     measurement: oz
     name: coleslaw mix
   - quantity: "1"
-    measurement: cup
+    measurement: c
     name: sunflower seeds, no shells
   - quantity: "1"
-    measurement: cup
+    measurement: c
     name: sliced almonds
   - quantity: "2"
     name: Maruchan ramen packages, oriental flavor (blue coloring)
-    measurement: n/a
+    measurement: "null"
   - quantity: "6"
     name: stalks of scallions, sliced (whites optional)
-    measurement: n/a
+    measurement: "null"
   - quantity: "2"
     measurement: tbsp
     name: sesame seeds
   - quantity: 3/4
-    measurement: cup
+    measurement: c
     name: canola or vegetable oil
   - quantity: 1/3
-    measurement: cup
+    measurement: c
     name: rice wine vinegar
   - quantity: 1/2
-    measurement: cup
+    measurement: c
     name: sugar
   - quantity: "1"
     measurement: tbsp
@@ -40,15 +40,15 @@ ingredients:
     measurement: tbsp
     name: fish sauce
   - quantity: 1/2
-    measurement: cup
+    measurement: c
     name: soy sauce
 directions:
   - direction: In a large bowl, place coleslaw mix, sunflower seeds, sliced almonds,
       crushed ramen, sesame seeds, and scallions
-  - direction: In a large measuring cup or bowl, add the liquids, sugar, and one seasoning
-      packet from the ramen and whisk together well
-  - direction: Pour oil mixture over the coleslaw mix and toss everything together with a
-      large spatula until everything is coated well
-  - direction: Cover bowl with plastic wrap and chill in refrigerator for at least 2 hours
-      or serve immediately
+  - direction: In a large measuring cup or bowl, add the liquids, sugar, and one
+      seasoning packet from the ramen and whisk together well
+  - direction: Pour oil mixture over the coleslaw mix and toss everything together
+      with a large spatula until everything is coated well
+  - direction: Cover bowl with plastic wrap and chill in refrigerator for at least 2
+      hours or serve immediately
 ---
