@@ -37,6 +37,7 @@ collections:
           - { label: Quantity, name: quantity }
           - label: Measurement
             name: measurement
+            widget: select
             options:
               - { label: "N/A", value: "null" }
               - { label: "Dash/Pinch", value: "dash" }
@@ -54,4 +55,5 @@ collections:
         name: directions
         widget: list
         allow_add: true
-        fields: { label: Direction, name: direction }
+        fields: 
+          - { label: Direction, name: direction }
