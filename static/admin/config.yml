@@ -34,12 +34,14 @@ collections:
         widget: list
         allow_add: true
         fields:
+          - { label: Name, name: name } 
           - { label: Quantity, name: quantity }
           - label: Measurement
             name: measurement
             widget: select
             options:
               - { label: "N/A", value: "null" }
+              - { label: "Individual", value: "" }
               - { label: "Dash/Pinch", value: "dash" }
               - { label: "Teaspoon (tsp)", value: "tsp" }
               - { label: "Tablespoon (tbsp)", value: "tbsp" }
@@ -49,7 +51,6 @@ collections:
               - { label: "Pound (lb)", value: "lb" }
               - { label: "Quart (qt)", value: "qt" }
               - { label: "Gallon (gal)", value: "gal" }
-          - { label: Name, name: name } 
       - label: Directions
         label_singular: Direction
         name: directions
