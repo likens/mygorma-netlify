@@ -10,29 +10,29 @@ servingsize: "6"
 image: ""
 ingredients:
   - name: Extra virgin olive oil
-    measurement: c
-    quantity: 1/4
+    measurement: cup
+    quantity: "1/4"
   - name: Finely Grated Zest and Juice of Lemon
     quantity: "2"
-    measurement: "null"
+    measurement: ""
   - name: Dried Oregano
-    measurement: tbsp
+    measurement: tablespoon
     quantity: "1"
   - name: Minced Garlic
-    measurement: tbsp
+    measurement: tablespoon
     quantity: "1"
   - name: paprika
-    measurement: tsp
+    measurement: teaspoon
     quantity: "2"
   - name: kosher salt
-    measurement: tsp
-    quantity: 1 1/2
+    measurement: teaspoon
+    quantity: "1 1/2"
   - name: fresh ground black pepper
-    measurement: tsp
-    quantity: 1/2
+    measurement: teaspoon
+    quantity: "1/2"
   - name: Skinless Chicken Breasts
     quantity: "6"
-    measurement: "null"
+    measurement: ""
 directions:
   - direction: In a medium bowl whisk the marinade ingredients.
   - direction: Place the breasts on a large, rimmed plate. Spoon or brush the

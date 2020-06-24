@@ -8,16 +8,16 @@ cooktime: ""
 servingsize: "20"
 ingredients:
   - quantity: "1"
-    measurement: c
+    measurement: cup
     name: Mayonnaise
   - quantity: 1/2
-    measurement: c
+    measurement: cup
     name: Ketchup
   - quantity: 1/4
-    measurement: c
+    measurement: cup
     name: Yellow Mustard
   - quantity: 1/2
-    measurement: tsp
+    measurement: teaspoon
     name: garlic powder
   - quantity: "1"
     measurement: dash
@@ -26,10 +26,10 @@ ingredients:
     measurement: dash
     name: Pepper to taste
   - quantity: 1/2
-    measurement: tsp
+    measurement: teaspoon
     name: Paprika
   - quantity: "1"
-    measurement: tbsp
+    measurement: tablespoon
     name: Chopped Dill Pickles
 directions:
   - direction: Mix all ingredients in a bowl.

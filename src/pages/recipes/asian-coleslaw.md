@@ -7,40 +7,40 @@ inspiredby: Table for Two Blog
 servingsize: "4"
 ingredients:
   - quantity: "16"
-    measurement: oz
+    measurement: ounce
     name: coleslaw mix
   - quantity: "1"
-    measurement: c
+    measurement: cup
     name: sunflower seeds, no shells
   - quantity: "1"
-    measurement: c
+    measurement: cup
     name: sliced almonds
   - quantity: "2"
     name: Maruchan ramen packages, oriental flavor (blue coloring)
-    measurement: "null"
+    measurement: ""
   - quantity: "6"
     name: stalks of scallions, sliced (whites optional)
-    measurement: "null"
+    measurement: ""
   - quantity: "2"
-    measurement: tbsp
+    measurement: tablespoon
     name: sesame seeds
   - quantity: 3/4
-    measurement: c
+    measurement: cup
     name: canola or vegetable oil
   - quantity: 1/3
-    measurement: c
+    measurement: cup
     name: rice wine vinegar
   - quantity: 1/2
-    measurement: c
+    measurement: cup
     name: sugar
   - quantity: "1"
-    measurement: tbsp
+    measurement: tablespoon
     name: sesame oil
   - quantity: "1"
-    measurement: tbsp
+    measurement: tablespoon
     name: fish sauce
   - quantity: 1/2
-    measurement: c
+    measurement: cup
     name: soy sauce
 directions:
   - direction: In a large bowl, place coleslaw mix, sunflower seeds, sliced almonds,

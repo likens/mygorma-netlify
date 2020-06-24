@@ -8,25 +8,25 @@ cooktime: 10 minutes
 servingsize: "4"
 ingredients:
   - quantity: "1"
-    measurement: "null"
+    measurement: ""
     name: Egg, beaten
   - quantity: "1"
-    measurement: tsp
+    measurement: teaspoon
     name: Vanilla Bourbon flavored Vanilla Extract
   - quantity: 1/2
-    measurement: tsp
+    measurement: teaspoon
     name: Ground Cinnamon
   - quantity: 1/4
-    measurement: c
+    measurement: cup
     name: Whole Milk
   - quantity: "4"
-    measurement: "null"
+    measurement: ""
     name: Brioche Bread slices
   - quantity: 1/4
-    measurement: c
+    measurement: cup
     name: Powdered Sugar
   - quantity: "1"
-    measurement: c
+    measurement: cup
     name: Maple Syrup
 directions:
   - direction: Beat egg, Vanilla Extract, Cinnamon, and stir in milk until combined

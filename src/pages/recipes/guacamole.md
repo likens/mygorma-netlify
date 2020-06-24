@@ -6,22 +6,22 @@ inspiredby: Chipotle
 servingsize: "2"
 ingredients:
   - quantity: "2"
-    measurement: "null"
+    measurement: ""
     name: medium, ripe, hass avocados
   - quantity: "1.5"
-    measurement: tbsp
+    measurement: tablespoon
     name: lime juice (or about half a limes worth)
   - quantity: "2"
-    measurement: tbsp
+    measurement: tablespoon
     name: cilantro, chopped finely
   - quantity: 1/4
-    measurement: c
+    measurement: cup
     name: red onion (or a medium shallot), finely diced
   - quantity: "1"
-    measurement: tsp
+    measurement: teaspoon
     name: pickled jalapeno, diced and with brine
   - quantity: "1"
-    measurement: tsp
+    measurement: teaspoon
     name: salt
 directions:
   - direction: Hand scoop out the avocados to a medium bowl, without the pit and

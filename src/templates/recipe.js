@@ -56,9 +56,11 @@ export const RecipeTemplate = ({
                 {ingredients && ingredients.map((ing, idx) => ( 
                   <li className="recipe__list-item recipe__ingredients-item" key={idx}>
                     {ing.quantity ? `${ing.quantity} ` : ``}
-                    {ing.measurement !== "null" && 
-                      ing.measurement !== "n/a" && 
-                      ing.measurement ? `${ing.measurement} ` : ``}
+                    {
+                      /** XSS incoming ! **/
+                      ing.measurement ? 
+                      `${ing.measurement}${eval(ing.quantity) > 1 ? `s` : ``} ` : ``
+                    }
                     {ing.name ? ing.name : ``}
                   </li>
                 ))}
@@ -69,8 +71,8 @@ export const RecipeTemplate = ({
             <div className="recipe__heading">Directions</div>
             <div className="recipe__content">
               <ol className="recipe__list recipe__directions-list">
-                {directions && directions.map((direction, idx) => ( 
-                  <li className="recipe__list-item recipe__directions-item" key={idx}>{direction.direction}</li>
+                {directions && directions.map((dir, idx) => ( 
+                  <li className="recipe__list-item recipe__directions-item" key={idx}>{dir.direction}</li>
                 ))}
               </ol>
             </div>

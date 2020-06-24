@@ -9,30 +9,30 @@ servingsize: "8"
 ingredients:
   - quantity: "100"
     name: ' 3" Wonton Wrappers'
-    measurement: "null"
+    measurement: ""
   - quantity: 1 3/4
-    measurement: lb
+    measurement: pound
     name: Ground Pork
   - quantity: "1"
-    measurement: tbsp
+    measurement: tablespoon
     name: minced fresh ginger root
-  - quantity: "4 "
+  - quantity: "4"
     name: Cloves Garlic (minced)
-    measurement: "null"
+    measurement: ""
   - quantity: "2"
-    measurement: tbsp
+    measurement: tablespoon
     name: Thinly Sliced Green Onion
   - quantity: "4"
-    measurement: tbsp
+    measurement: tablespoon
     name: Soy Sauce
   - quantity: "3"
-    measurement: tbsp
+    measurement: tablespoon
     name: Sesame Oil
   - quantity: "1"
     name: Egg (Beaten)
-    measurement: "null"
+    measurement: ""
   - quantity: "5"
-    measurement: c
+    measurement: cup
     name: Finely Shredded Chinese (Napa) Cabbage
 directions:
   - direction: In a large bowl, Combine the pork, ginger, garlic, green onion, soy

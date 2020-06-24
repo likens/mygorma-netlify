@@ -7,13 +7,13 @@ preptime: 30 minutes
 servingsize: 75 wrappers
 ingredients:
   - quantity: "3"
-    measurement: c
+    measurement: cup
     name: All-purpose flour
   - quantity: "1"
-    measurement: c
+    measurement: cup
     name: Boiling Water
   - quantity: "3"
-    measurement: tbsp
+    measurement: tablespoon
     name: cold water
 directions:
   - direction: Using an electric mixer, place the flour in the work bowl of the

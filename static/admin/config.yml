@@ -36,22 +36,27 @@ collections:
         summary: "{{quantity}} {{measurement}} {{name}}"
         fields:
           - { label: Name, name: name } 
-          - { label: Quantity, name: quantity }
+          - { label: Quantity, name: quantity, required: false }
           - label: Measurement
             name: measurement
-            widget: select
+            widget: select,
+            required: false,
             options:
-              - { label: "N/A", value: "null" }
               - { label: "Individual", value: "" }
               - { label: "Dash/Pinch", value: "dash" }
-              - { label: "Teaspoon (tsp)", value: "tsp" }
-              - { label: "Tablespoon (tbsp)", value: "tbsp" }
-              - { label: "Cup (c)", value: "c" }
-              - { label: "Pint (pt)", value: "pt" }
-              - { label: "Ounce (oz)", value: "oz" }
-              - { label: "Pound (lb)", value: "lb" }
-              - { label: "Quart (qt)", value: "qt" }
-              - { label: "Gallon (gal)", value: "gal" }
+              - { label: "Milligram (mg)", value: "milligram" }
+              - { label: "Gram (g)", value: "gram" }
+              - { label: "Kilogram (kg)", value: "kilogram" }
+              - { label: "Mililiter (mL)", value: "milliliter" }
+              - { label: "Liter (L)", value: "liter" }
+              - { label: "Teaspoon (tsp)", value: "teaspoon" }
+              - { label: "Tablespoon (Tbsp)", value: "tablespoon" }
+              - { label: "Cup (c)", value: "cup" }
+              - { label: "Pint (pt)", value: "pint" }
+              - { label: "Ounce (oz)", value: "ounce" }
+              - { label: "Pound (lb)", value: "pound" }
+              - { label: "Quart (qt)", value: "quart" }
+              - { label: "Gallon (gal)", value: "gallon" }
       - label: Directions
         label_singular: Direction
         name: directions

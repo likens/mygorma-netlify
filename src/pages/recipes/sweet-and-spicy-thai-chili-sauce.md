@@ -8,22 +8,22 @@ cooktime: 5 minutes
 servingsize: "20"
 ingredients:
   - quantity: 3/4
-    measurement: c
+    measurement: cup
     name: Sugar
   - quantity: 1/2
     name: Rice Vinegar
-    measurement: c
+    measurement: cup
   - quantity: 1/4
-    measurement: c
+    measurement: cup
     name: Water
   - quantity: "3"
-    measurement: tbsp
+    measurement: tablespoon
     name: Chili Garlic
   - quantity: "1"
-    measurement: tbsp
+    measurement: tablespoon
     name: Corn starch
   - quantity: "1"
-    measurement: tbsp
+    measurement: tablespoon
     name: cold water (to dissolve the cornstarch)
 directions:
   - direction: Start with 3/4 cup of sugar in a small sauce pan

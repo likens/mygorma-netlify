@@ -9,55 +9,55 @@ cooktime: 90 minutes
 servingsize: "10"
 ingredients:
   - quantity: "2"
-    measurement: tbsp
+    measurement: tablespoon
     name: Olive Oil
   - quantity: "1"
-    measurement: "null"
+    measurement: ""
     name: Large Green Bell Pepper, Chopped
   - quantity: "2"
-    measurement: "null"
+    measurement: ""
     name: Large Sweet Onions, Chopped
   - quantity: "3"
-    measurement: lb
+    measurement: pound
     name: Ground Beef (85/15)
   - quantity: "2"
-    measurement: "null"
+    measurement: ""
     name: Large Garlic Cloves, Minced
   - quantity: "4"
-    measurement: tbsp
+    measurement: tablespoon
     name: Chili Powder
   - quantity: "1"
-    measurement: "null"
+    measurement: ""
     name: Bay Leaf, Broken in half
   - quantity: "6"
-    measurement: oz
+    measurement: ounce
     name: Tomato Paste
   - quantity: "6"
-    measurement: oz
+    measurement: ounce
     name: Water
   - quantity: "28"
-    measurement: oz
+    measurement: ounce
     name: Tomato Soup
   - quantity: "12"
-    measurement: oz
+    measurement: ounce
     name: Yellow Creamed Corn
   - quantity: "1"
     measurement: dash
     name: Salt and Pepper to taste
   - quantity: "1"
-    measurement: lb
+    measurement: pound
     name: Egg Noodles (Extra Wide ribbon style)
   - quantity: 1/2
-    measurement: lb
+    measurement: pound
     name: Shredded Milk Cheddar Cheese
   - quantity: 1/4
-    measurement: lb
+    measurement: pound
     name: Grated Parmesan (to sprinkle on top)
   - quantity: "3"
-    measurement: qt
+    measurement: quart
     name: Casserole Dish (and Aluminum foil to cover)
   - quantity: "2"
-    measurement: "null"
+    measurement: ""
     name: Large pots (1 for noodles, 1 for mixture)
 directions:
   - direction: Preheat oven to 300 F
