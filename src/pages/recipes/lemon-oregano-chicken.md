@@ -7,7 +7,7 @@ inspiredby: Weber's Way to Grill
 preptime: 15 minutes
 cooktime: 8 to 12 minutes
 servingsize: "6"
-image: ""
+image: /img/lemonoregano.jpg
 ingredients:
   - name: Extra virgin olive oil
     measurement: c
