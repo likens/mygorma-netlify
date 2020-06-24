@@ -6,6 +6,7 @@ date: 2020-06-23T02:23:59.690Z
 preptime: 2 hours
 cooktime: 20 minutes
 servingsize: "8"
+image: /img/dumplings.jpg
 ingredients:
   - quantity: "100"
     name: ' 3" Wonton Wrappers'

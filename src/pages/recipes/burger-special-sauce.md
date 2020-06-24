@@ -6,6 +6,7 @@ date: 2020-06-23T17:01:20.135Z
 preptime: 5 minutes
 cooktime: 10 minutes
 servingsize: "4"
+image: /img/frenchtoast4.jpg
 ingredients:
   - quantity: "1"
     measurement: ""

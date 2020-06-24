@@ -5,6 +5,7 @@ author: Bill Gorman
 date: 2020-06-23T02:08:53.922Z
 preptime: 30 minutes
 servingsize: 75 wrappers
+image: /img/dumplingwrappers.jpg
 ingredients:
   - quantity: "3"
     measurement: cup

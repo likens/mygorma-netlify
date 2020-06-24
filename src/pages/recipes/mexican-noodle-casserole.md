@@ -7,6 +7,7 @@ inspiredby: ""
 preptime: 30 minutes
 cooktime: 90 minutes
 servingsize: "10"
+image: /img/mexicannoodle.jpg
 ingredients:
   - quantity: "2"
     measurement: tablespoon
