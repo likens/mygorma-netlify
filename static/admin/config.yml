@@ -33,6 +33,7 @@ collections:
         name: ingredients
         widget: list
         allow_add: true
+        summary: "{{quantity}} {{measurement}} {{name}}"
         fields:
           - { label: Name, name: name } 
           - { label: Quantity, name: quantity }
