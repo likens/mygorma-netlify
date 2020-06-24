@@ -56,11 +56,7 @@ export const RecipeTemplate = ({
                 {ingredients && ingredients.map((ing, idx) => ( 
                   <li className="recipe__list-item recipe__ingredients-item" key={idx}>
                     {ing.quantity ? `${ing.quantity} ` : ``}
-                    {
-                      /** XSS incoming ! **/
-                      ing.measurement ? 
-                      `${ing.measurement}${eval(ing.quantity) > 1 ? `s` : ``} ` : ``
-                    }
+                    {ing.measurement ? `${ing.measurement} ` : ``}
                     {ing.name ? ing.name : ``}
                   </li>
                 ))}

@@ -39,8 +39,8 @@ collections:
           - { label: Quantity, name: quantity, required: false }
           - label: Measurement
             name: measurement
-            widget: select,
-            required: false,
+            widget: select
+            required: false
             options:
               - { label: "Individual", value: "" }
               - { label: "Dash/Pinch", value: "dash" }

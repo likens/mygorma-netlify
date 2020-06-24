@@ -61,7 +61,7 @@ body {
 		padding: 2rem;
 		display: grid;
 		grid-template-columns: 1fr 2.4rem;
-		grid-gap: .5rem;
+		grid-gap: .5rem 2rem;
 	}
 	&__info {
 		display: flex;
