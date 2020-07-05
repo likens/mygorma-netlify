@@ -35,7 +35,7 @@ directions:
       until the dough has moderately strong gluten development. Desired Dough
       temperature 75 F."
   - direction: "Bulk Fermentation: 2 Hours"
-  - direction: "Folding: Fold the dough once, after 1 hour of bulk fermation"
+  - direction: "Folding: Fold the dough once, after 1 hour of bulk fermentation"
   - direction: "Dividing and Shaping: Try to cut squarish pieces at 3 ounces each.
       Roll up the dough pieces into blunt cylinders. Use the heel of your hands
       to get a tight seam on the bottom edge. Let the dough relax for a few
