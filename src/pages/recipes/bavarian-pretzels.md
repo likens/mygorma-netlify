@@ -34,7 +34,7 @@ directions:
       Turn the mixer to second speed and mix for an additional 5 to 6 minutes
       until the dough has moderately strong gluten development. Desired Dough
       temperature 75 F."
-  - direction: "Bulk Fermation: 2 Hours"
+  - direction: "Bulk Fermentation: 2 Hours"
   - direction: "Folding: Fold the dough once, after 1 hour of bulk fermation"
   - direction: "Dividing and Shaping: Try to cut squarish pieces at 3 ounces each.
       Roll up the dough pieces into blunt cylinders. Use the heel of your hands
@@ -54,14 +54,14 @@ directions:
       more durable for the dipping to come."
   - direction: "Be sure to wear gloves, the further up the arm the better (and
       goggles to be safer), a stainless steel bowl and stainless steel spoon.
-      Add water to bowl and then lye to water and mix until dissolved. With a
-      cooling rack on a sheet pan set up, dip the pretzels in the lye solution,
-      and leave them in the solution for about 5 seconds, and place on the
-      cooling rack to drain for a few seconds, then place them onto sheet pan
-      with lightly oiled parchment paper. Sprinkle coarse salt lightly over the
-      top, thickest part of the pretzel. Using a sharp knife, make one quick
-      slash along the thickest part of the pretzel. Discard leftover solution by
-      flushing it down the toilet. "
+      Add water to bowl and then lye to water and mix until dissolved. "
+  - direction: "With a cooling rack on a sheet pan set up, dip the pretzels in the
+      lye solution, and leave them in the solution for about 5 seconds, and
+      place on the cooling rack to drain for a few seconds, then place them onto
+      sheet pan with lightly oiled parchment paper. Sprinkle coarse salt lightly
+      over the top, thickest part of the pretzel. Using a sharp knife, make one
+      quick slash along the thickest part of the pretzel. "
+  - direction: "Discard leftover solution by flushing it down the toilet. "
   - direction: "Baking: Bake them in a preheated oven at 450 F for 14 to 16 minutes.
       The lye dissipates completely in the oven, and the warm pretzel is left to
       be enjoyed either plain or with mustard or with cheese."
