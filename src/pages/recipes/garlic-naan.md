@@ -6,6 +6,7 @@ date: 2020-07-06T17:49:13.631Z
 preptime: 1.5 hours
 cooktime: 15 minutes
 servingsize: "10"
+image: /img/20200706_183944.jpg
 ingredients:
   - name: Flour
     quantity: "388"
