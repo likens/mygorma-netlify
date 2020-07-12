@@ -6,7 +6,7 @@ date: 2020-06-23T18:16:26.433Z
 preptime: 5 minutes
 cooktime: ""
 servingsize: "20"
-image: /img/burgersauceclip.jpg
+image: ""
 ingredients:
   - quantity: "1"
     measurement: cup
