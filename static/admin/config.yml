@@ -21,8 +21,8 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recipe"}
       - {label: "Name", name: "name" }
-      - {label: "Author", name: "author", required: false }
       - {label: "Publish Date", name: "date", widget: "datetime" }
+      - {label: "Author", name: "author", required: false }
       - {label: "Inspired By", name: "inspiredby", required: false }
       - {label: "Prep Time", name: "preptime", required: false }
       - {label: "Cook Time", name: "cooktime", required: false }
@@ -64,3 +64,128 @@ collections:
         allow_add: true
         fields: 
           - { label: Direction, name: direction }
+      
+      - label: "Diet"
+        name: "categorydiet" 
+        widget: select 
+        required: false
+        multiple: true
+        options:
+          - { label: "Atkins", value: "Atkins" }
+          - { label: "Low-Carb", value: "Low-Carb" }
+          - { label: "Paleo", value: "Paleo" }
+          - { label: "Weight Watchers", value: "Weight Watchers" }
+          - { label: "Gluten Free", value: "Gluten Free" }
+          - { label: "Vegetarian", value: "Vegetarian" }
+          - { label: "Pescatarain", value: "Pescatarain" }
+          - { label: "Vegan", value: "Vegan" }
+          - { label: "Kosher", value: "Kosher" }
+          - { label: "Halal", value: "Halal" }
+      - label: "Cooking Method"
+        name: "categorycookingmethod" 
+        widget: select 
+        required: false
+        multiple: true
+        options:
+          - { label: "N/A", value: "null" }
+          - { label: "Oven", value: "Oven" }
+          - { label: "Grill", value: "Grill" }
+          - { label: "Sous Vide", value: "Sous Vide" }
+          - { label: "Microwave", value: "Microwave" }
+          - { label: "Stove", value: "Stove" }
+          - { label: "Fire", value: "Fire" }
+          - { label: "Griddle", value: "Griddle" }
+          - { label: "Deep Fryer", value: "Deep Fryer" }
+          - { label: "Air Fryer", value: "Air Fryer" }
+          - { label: "Poach", value: "Poach" }
+          - { label: "Double Boiler", value: "Double Boiler" }
+          - { label: "Smoke", value: "Smoke" }
+          - { label: "Torch", value: "Torch" }
+          - { label: "Cast Iron", value: "Cast Iron" }
+          - { label: "Non-Stick", value: "Non-Stick" }
+          - { label: "Bake", value: "Bake" }
+          - { label: "Broil", value: "Broil" }
+          - { label: "Roast", value: "Roast" }
+          - { label: "Propane", value: "Propane" }
+          - { label: "Charcoal", value: "Charcoal" }
+          - { label: "Flat Top", value: "Flat Top" }
+          - { label: "InstantPot", value: "InstantPot" }
+          - { label: "Pressure Cooker", value: "Pressure Cooker" }
+      - label: "Ethnicity"
+        name: "categoryethnicity" 
+        widget: select 
+        required: false
+        multiple: true
+        options:
+            - { label: "N/A", value: "null" }
+            - { label: "American", value: "American" }
+            - { label: "Italian", value: "Italian" }
+            - { label: "French", value: "French" }
+            - { label: "Chinese", value: "Chinese" }
+            - { label: "Japanese", value: "Japanese" }
+            - { label: "Korean", value: "Korean" }
+            - { label: "Irish", value: "Irish" }
+            - { label: "German", value: "German" }
+            - { label: "English", value: "English" }
+            - { label: "Spanish", value: "Spanish" }
+            - { label: "Mexican", value: "Mexican" }
+            - { label: "Greek", value: "Greek" }
+            - { label: "Mediterranean", value: "Mediterranean" }
+            - { label: "Russian", value: "Russian" }
+            - { label: "Thai", value: "Thai" }
+            - { label: "Brazilian", value: "Brazilian" }
+            - { label: "Peruvian", value: "Peruvian" }
+      - label: "Event"
+        name: "categoryevent" 
+        widget: select 
+        required: false
+        multiple: true
+        options:
+            - { label: "N/A", value: "null" }
+            - { label: "Holiday", value: "Holiday" }
+            - { label: "Christmas", value: "Christmas" }
+            - { label: "Thanksgiving", value: "Thanksgiving" }
+            - { label: "Easter", value: "Easter" }
+            - { label: "4th of July", value: "4th of July" }
+            - { label: "Memorial Day", value: "Memorial Day" }
+            - { label: "Labor Day", value: "Labor Day" }
+            - { label: "Diwali", value: "Diwali" }
+      - label: "Meal"
+        name: "categorymeal" 
+        widget: select 
+        required: false
+        multiple: true
+        options:
+            - { label: "N/A", value: "null" }
+            - { label: "Breakfast", value: "Breakfast" }
+            - { label: "Lunch", value: "Lunch" }
+            - { label: "Dinner", value: "Dinner" }
+            - { label: "Dessert", value: "Dessert" }
+            - { label: "Snack", value: "Snack" }
+            - { label: "Brunch", value: "Brunch" }
+      - label: "Ingredient Type"
+        name: "categoryingredienttype" 
+        widget: select 
+        required: false
+        multiple: true
+        options:
+            - { label: "N/A", value: "null" }
+            - { label: "Temp", value: "Temp" }
+            - { label: "Dry", value: "Dry" }
+            - { label: "Liquid", value: "Liquid" }
+            - { label: "Fine Powder", value: "Fine Powder" }
+            - { label: "Grain", value: "Grain" }
+            - { label: "Granular", value: "Granular" }
+            - { label: "Semi-Solid", value: "Semi-Solid" }
+      - label: "Cooking Skill"
+        name: "categorycookingskill" 
+        widget: select 
+        required: false
+        multiple: true
+        options:
+            - { label: "N/A", value: "null" }
+            - { label: "Beginner", value: "Beginner" }
+            - { label: "Novice", value: "Novice" }
+            - { label: "Intermediate", value: "Intermediate" }
+            - { label: "Home Chef", value: "HomeChef" }
+            - { label: "Professional", value: "Professional" }

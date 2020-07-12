@@ -49,28 +49,34 @@ export const RecipeTemplate = ({
           </div>
         </div>
         <div className="recipe__full">
-          <div className="recipe__ingredients">
-            <div className="recipe__heading">Ingredients</div>
+          <div className="recipe__section recipe__section--ingredients">
+            <div className="recipe__heading recipe__heading--content">Ingredients</div>
             <div className="recipe__content">
-              <ul className="recipe__list recipe__ingredients-list">
+              <ul className="recipe__list recipe__ingredients">
                 {ingredients && ingredients.map((ing, idx) => ( 
                   <li className="recipe__list-item recipe__ingredients-item" key={idx}>
                     {ing.quantity ? `${ing.quantity} ` : ``}
-                    {ing.measurement ? `${ing.measurement} ` : ``}
+                    {ing.measurement ? `${ing.measurement}(s) ` : ``}
                     {ing.name ? ing.name : ``}
                   </li>
                 ))}
               </ul>
             </div>
           </div>
-          <div className="recipe__directions">
-            <div className="recipe__heading">Directions</div>
+          <div className="recipe__section recipe__section--directions">
+            <div className="recipe__heading recipe__heading--content">Directions</div>
             <div className="recipe__content">
-              <ol className="recipe__list recipe__directions-list">
+              <ol className="recipe__list recipe__directions">
                 {directions && directions.map((dir, idx) => ( 
                   <li className="recipe__list-item recipe__directions-item" key={idx}>{dir.direction}</li>
                 ))}
               </ol>
+            </div>
+          </div>
+          <div className="recipe__section recipe__section--related">
+            <div className="recipe__heading recipe__heading--content">Related</div>
+            <div className="recipe__content">
+              [related recipes here]
             </div>
           </div>
         </div>
@@ -101,7 +107,8 @@ const Recipe = ({ data }) => {
       <RecipeTemplate
         helmet={
           <Helmet titleTemplate="%s | MyGorma">
-            <title>{`${recipe.frontmatter.name}`}</title>
+            <title>{`${recipe.frontmatter.name} Recipe ${recipe.frontmatter.author ? 
+              ` by ${recipe.frontmatter.author}` : ``}`}</title>
             {/* <meta
               name="description"
               content={`${recipe.frontmatter.description}`}
