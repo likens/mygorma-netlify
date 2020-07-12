@@ -17,13 +17,9 @@ class RecipeRoll extends React.Component {
             <div className="recipe" key={recipe.id}>
               <Link className="recipe__link" to={recipe.fields.slug}>
                 <div className="recipe__image recipe__image--list">
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      className: `recipe__img recipe__img--list`,
-                      image: recipe.frontmatter.image ? recipe.frontmatter.image : logoReverse,
-                      alt: recipe.frontmatter.image ? `Image for ${recipe.frontmatter.name}` : ``,
-                    }}
-                  />
+                  <img className={`recipe__img recipe__img--list`} 
+                    src={recipe.frontmatter.image ? recipe.frontmatter.image : logoReverse}
+                    alt={recipe.frontmatter.image ? `Image for ${recipe.frontmatter.name}` : ``} />
                 </div>
                 <div className="recipe__info">
                   <div className="recipe__heading recipe__heading--list">{recipe.frontmatter.name}</div>
@@ -62,14 +58,13 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
               id
               fields {
                 slug
               }
               frontmatter {
-                name
                 templateKey
+                name
                 date(formatString: "MMMM DD, YYYY")
                 author
                 image

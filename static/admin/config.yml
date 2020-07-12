@@ -87,7 +87,6 @@ collections:
         required: false
         multiple: true
         options:
-          - { label: "N/A", value: "null" }
           - { label: "Oven", value: "Oven" }
           - { label: "Grill", value: "Grill" }
           - { label: "Sous Vide", value: "Sous Vide" }
@@ -117,7 +116,6 @@ collections:
         required: false
         multiple: true
         options:
-            - { label: "N/A", value: "null" }
             - { label: "American", value: "American" }
             - { label: "Italian", value: "Italian" }
             - { label: "French", value: "French" }
@@ -141,7 +139,6 @@ collections:
         required: false
         multiple: true
         options:
-            - { label: "N/A", value: "null" }
             - { label: "Holiday", value: "Holiday" }
             - { label: "Christmas", value: "Christmas" }
             - { label: "Thanksgiving", value: "Thanksgiving" }
@@ -156,7 +153,6 @@ collections:
         required: false
         multiple: true
         options:
-            - { label: "N/A", value: "null" }
             - { label: "Breakfast", value: "Breakfast" }
             - { label: "Lunch", value: "Lunch" }
             - { label: "Dinner", value: "Dinner" }
@@ -169,7 +165,6 @@ collections:
         required: false
         multiple: true
         options:
-            - { label: "N/A", value: "null" }
             - { label: "Temp", value: "Temp" }
             - { label: "Dry", value: "Dry" }
             - { label: "Liquid", value: "Liquid" }
@@ -183,7 +178,6 @@ collections:
         required: false
         multiple: true
         options:
-            - { label: "N/A", value: "null" }
             - { label: "Beginner", value: "Beginner" }
             - { label: "Novice", value: "Novice" }
             - { label: "Intermediate", value: "Intermediate" }
