@@ -5,6 +5,7 @@ author: Caleb Likens
 date: 2020-06-23T02:09:16.969Z
 inspiredby: Table for Two Blog
 servingsize: "4"
+image: /img/pho-ga-vietnamese-chicken-noodle-soup-homemade-vietnamesefood-vietnamese-pho-chicken-onion-cilantro-mint-basil-noodles-broth-soup-2.jpg
 ingredients:
   - quantity: "16"
     measurement: ounce
