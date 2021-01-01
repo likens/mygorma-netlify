@@ -1,9 +1,9 @@
 ---
 templateKey: recipe
 name: Asian Coleslaw
-author: Caleb Likens
 date: 2020-06-23T02:09:16.969Z
-inspiredby: Table for Two Blog
+author: Caleb Likens
+inspiredby: http://www.tablefortwoblog.com/ridiculously-amazing-asian-ramen-salad/
 servingsize: "4"
 image: ""
 ingredients:
